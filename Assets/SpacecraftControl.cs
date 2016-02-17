@@ -17,6 +17,7 @@ public class SpacecraftControl : MonoBehaviour {
     public float AirBrakesEffect = 3f;
     public float ThrottleChangeSpeed = 0.3f;
     public float DragIncreaseFactor = 0.001f;
+    public bool weapon1armed = false;
 
     private float Throttle;
     private bool AirBrakes;
